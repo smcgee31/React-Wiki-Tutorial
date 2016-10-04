@@ -9,7 +9,11 @@ export default class ResultList extends React.Component {
         <SingleResult key={index} title={this.props.results[1][index]} description={this.props.results[2][index]} url={this.props.results[3][index]}/>
       );
     });
-    return (<div className="result-list">{results}</div>);
+    return (
+    	<div className="result-list">
+    		{results}
+    	</div>
+    );
   }
 
 }

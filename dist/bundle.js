@@ -22374,10 +22374,10 @@
 
 	exports = module.exports = __webpack_require__(182)();
 	// imports
-
+	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);", ""]);
 
 	// module
-	exports.push([module.id, "", ""]);
+	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box; }\n\nbody {\n  background-color: #2e2e2e;\n  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }\n\na {\n  text-decoration: none;\n  color: #afafaf; }\n  a:hover {\n    color: #d6d6d6; }\n\n::-webkit-input-placeholder {\n  color: #717171; }\n\n:-moz-placeholder {\n  color: #717171;\n  opacity: 1; }\n\n::-moz-placeholder {\n  color: #717171;\n  opacity: 1; }\n\n:-ms-input-placeholder {\n  color: #717171; }\n\n:placeholder-shown {\n  color: #717171; }\n\n.wrapper {\n  margin-top: 100px;\n  text-align: center; }\n\n.search-box-container {\n  margin-bottom: 10px; }\n\n.search-box-text {\n  background-color: transparent;\n  padding: 10px;\n  width: 90%;\n  max-width: 400px;\n  border: 1px solid #dedede;\n  border-radius: 40px;\n  color: #dedede;\n  text-align: center;\n  font-size: 1.3rem;\n  font-weight: 300; }\n  .search-box-text:focus {\n    border-color: #ff6200;\n    outline: none; }\n\n.search-box-submit {\n  border: 1px solid #dedede;\n  background-color: #dedede;\n  cursor: pointer;\n  padding: 10px;\n  border-top-right-radius: 20px;\n  border-bottom-right-radius: 20px; }\n  .search-box-submit:active {\n    background-color: #a3a3a3; }\n  .search-box-submit:focus, .search-box-submitactive {\n    outline: none; }\n\n.random-text {\n  color: #868686; }\n\n.result-list {\n  width: 100%; }\n\n.single-result {\n  color: #333;\n  text-decoration: none;\n  width: 100%;\n  max-width: 500px;\n  margin: 0 auto;\n  display: block;\n  background-color: #f4f4f4;\n  padding: 20px;\n  margin-bottom: 5px;\n  text-align: left;\n  border-left: 3px solid #717171;\n  border-right: 3px solid #717171;\n  transition: .1s ease-out all; }\n  .single-result h3 {\n    font-size: 1rem;\n    margin-bottom: 0.3rem; }\n  .single-result p {\n    font-size: 0.8rem; }\n  .single-result:hover {\n    color: #333;\n    border-color: #ff6200; }\n", ""]);
 
 	// exports
 
